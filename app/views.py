@@ -18,6 +18,7 @@ def index():
 	return render_template('index.html', 
 							title=user['nickname'],
 						    user=user, posts=posts)
+	
 
 
 
